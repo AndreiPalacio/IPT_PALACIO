@@ -1,0 +1,48 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    h1, h2 {
+      color: #333;
+      transition: color 0.3s; 
+    }
+
+    input {
+      padding: 10px;
+      margin: 5px 0;
+      width: calc(100% - 22px);
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 10px 15px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: transparent; 
+      color: inherit; 
+      font-size: 16px;
+    }
+
+    .result {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    body.dark-mode {
+      background-color: #333;
+      color: #f0f0f0;
+    }
+
+    body.dark-mode h1, body.dark-mode h2 {
+      color: #f0f0f0; 
+    }
+
+    body.dark-mode button {
+      border: 1px solid #f0f0f0; 
+    }
